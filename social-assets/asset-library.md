@@ -96,12 +96,12 @@
 | Like | ![Like](emojis/Like.png) | 认可、点赞类回复 |
 | Nice | ![Nice](emojis/nice.png) | 称赞、达成目标 |
 | Coming Right Up | ![Coming Right Up](emojis/Coming_right_up_.png) | 回应"即将上线/马上处理" |
-| LFG | ![LFG](emojis/emoji-lfg.png) | 兴奋、造势、活动预热 |
-| Mind Blown | ![Mind Blown](emojis/emoji-mind-blown.png) | 惊喜、意外好消息 |
-| Wave | ![Wave](emojis/emoji-wave.png) | 打招呼、欢迎新成员 |
-| GG! | ![GG](emojis/emoji-gg.png) | 庆祝达成目标、活动结束播报 |
-| Thinking... | ![Thinking](emojis/emoji-thinking.png) | 提问、征集意见、悬念预告 |
-| Syncing... | ![Syncing](emojis/emoji-syncing.png) | 加载中、数据同步中、维护公告 |
+| LFG | ![LFG](emojis/emoji-lfg.gif) | 兴奋、造势、活动预热 |
+| Mind Blown | ![Mind Blown](emojis/emoji-mind-blown.gif) | 惊喜、意外好消息 |
+| Wave | ![Wave](emojis/emoji-wave.gif) | 打招呼、欢迎新成员 |
+| GG! | ![GG](emojis/emoji-gg.gif) | 庆祝达成目标、活动结束播报 |
+| Thinking... | ![Thinking](emojis/emoji-thinking.gif) | 提问、征集意见、悬念预告 |
+| Syncing... | ![Syncing](emojis/emoji-syncing.gif) | 加载中、数据同步中、维护公告 |
 
 ---
 
