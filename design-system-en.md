@@ -6,17 +6,17 @@
 - Mark: a graphic symbol combining a diagonal slash "/" and the letter "P" (reads as "/P"), set inside a circular color badge
 - Wordmark structure: a small superscript "THE" above/beside the main "PromptProtocol" text
 - Asset files:
-  - **Full logo**: `img-brand-logo.svg` — icon + wordmark combination, 4 color variants
-  - **Logomark**: `img-brand-logomark.svg` — icon only, no text, same 4 color variants
+  - **Full logo**: `assets/img-brand-logo/` — icon + wordmark combination, 4 color variants (main / black / white / green)
+  - **Logomark**: `assets/img-brand-logomark/` — icon only, no text, same 4 color variants (main / black / white / green)
 
 ### 1.1 Color Variants
 
-| Variant | Circle Background | "P" Icon Color | "PromptProtocol" Color | "THE" Color |
-|---|---|---|---|---|
-| Light background | Gradient White → #E3E3E3 | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
-| Black background | Black #000000 | Brand/100 #47EA81 | Black #000000 | Black #000000 |
-| Icon-only (no visible background) | White #FFFFFF (invisible on a light canvas) | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
-| Solid green background | Brand/100 #47EA81 | White #FFFFFF | Black #000000 | Black #000000 |
+| Variant | Full Logo Preview | Logomark Preview | Circle Background | "P" Icon Color | "PromptProtocol" Color | "THE" Color |
+|---|---|---|---|---|---|---|
+| Light background | ![Logo-Light](assets/img-brand-logo/main.svg) | ![Logomark-Light](assets/img-brand-logomark/main.svg) | Gradient White → #E3E3E3 | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
+| Black background | ![Logo-Black](assets/img-brand-logo/black.svg) | ![Logomark-Black](assets/img-brand-logomark/black.svg) | Black #000000 | Brand/100 #47EA81 | Black #000000 | Black #000000 |
+| Icon-only (no visible background) | ![Logo-White](assets/img-brand-logo/white.svg) | ![Logomark-White](assets/img-brand-logomark/white.svg) | White #FFFFFF (invisible on a light canvas) | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
+| Solid green background | ![Logo-Green](assets/img-brand-logo/green.svg) | ![Logomark-Green](assets/img-brand-logomark/green.svg) | Brand/100 #47EA81 | White #FFFFFF | Black #000000 | Black #000000 |
 
 > Note: The Logomark (icon-only) file's 4 variants use the exact same background/icon color pairings as above, just without the wordmark.
 
@@ -119,10 +119,74 @@ Font family: **Montserrat**
 | Button 10 | 10px | 13px | Regular |
 
 ## 4. Icons
-- **Base icons – Line**: linear-style base icon library (navigation, actions, arrows, etc., extensive set)
-- **Menu icons**: colored icons for menu/navigation
-- **Tasks icons**: task-related icons
-- **Assets icons**: colored icons for assets/resources
+
+### 4.1 Base icons-Line
+Linear-style base icon library for navigation, actions, arrows, and other general-purpose uses. 130 icons total:
+
+| | | | | | | | |
+|---|---|---|---|---|---|---|---|
+| ![AddCircle-1](assets/icons/base-line/AddCircle-1.svg) | ![AddCircle](assets/icons/base-line/AddCircle.svg) | ![Add_Tags](assets/icons/base-line/Add_Tags.svg) | ![Back](assets/icons/base-line/Back.svg) | ![Brand](assets/icons/base-line/Brand.svg) | ![Calendar](assets/icons/base-line/Calendar.svg) | ![Camera-1](assets/icons/base-line/Camera-1.svg) | ![Camera](assets/icons/base-line/Camera.svg) |
+| AddCircle-1 | AddCircle | Add_Tags | Back | Brand | Calendar | Camera-1 | Camera |
+| ![Card](assets/icons/base-line/Card.svg) | ![Categories](assets/icons/base-line/Categories.svg) | ![Chart-pie](assets/icons/base-line/Chart-pie.svg) | ![Chart](assets/icons/base-line/Chart.svg) | ![Check](assets/icons/base-line/Check.svg) | ![CheckCircle](assets/icons/base-line/CheckCircle.svg) | ![Clock](assets/icons/base-line/Clock.svg) | ![CloseCircle-1](assets/icons/base-line/CloseCircle-1.svg) |
+| Card | Categories | Chart-pie | Chart | Check | CheckCircle | Clock | CloseCircle-1 |
+| ![CloseCircle](assets/icons/base-line/CloseCircle.svg) | ![Contact](assets/icons/base-line/Contact.svg) | ![ContactWithUS](assets/icons/base-line/ContactWithUS.svg) | ![Copy](assets/icons/base-line/Copy.svg) | ![Delete](assets/icons/base-line/Delete.svg) | ![Discount](assets/icons/base-line/Discount.svg) | ![Dislike](assets/icons/base-line/Dislike.svg) | ![Down](assets/icons/base-line/Down.svg) |
+| CloseCircle | Contact | ContactWithUS | Copy | Delete | Discount | Dislike | Down |
+| ![DownFill](assets/icons/base-line/DownFill.svg) | ![DownLine](assets/icons/base-line/DownLine.svg) | ![DownkCircle](assets/icons/base-line/DownkCircle.svg) | ![Downlosd](assets/icons/base-line/Downlosd.svg) | ![Edit](assets/icons/base-line/Edit.svg) | ![Edit_Complete](assets/icons/base-line/Edit_Complete.svg) | ![Email](assets/icons/base-line/Email.svg) | ![ErrorCircle](assets/icons/base-line/ErrorCircle.svg) |
+| DownFill | DownLine | DownkCircle | Downlosd | Edit | Edit_Complete | Email | ErrorCircle |
+| ![Expand](assets/icons/base-line/Expand.svg) | ![Explore](assets/icons/base-line/Explore.svg) | ![Eye-1](assets/icons/base-line/Eye-1.svg) | ![Eye](assets/icons/base-line/Eye.svg) | ![Feedback](assets/icons/base-line/Feedback.svg) | ![Filter](assets/icons/base-line/Filter.svg) | ![FingerPrint](assets/icons/base-line/FingerPrint.svg) | ![GPS](assets/icons/base-line/GPS.svg) |
+| Expand | Explore | Eye-1 | Eye | Feedback | Filter | FingerPrint | GPS |
+| ![Global](assets/icons/base-line/Global.svg) | ![Hand](assets/icons/base-line/Hand.svg) | ![Home](assets/icons/base-line/Home.svg) | ![Inbox](assets/icons/base-line/Inbox.svg) | ![InfoCircle](assets/icons/base-line/InfoCircle.svg) | ![LanguageSwitching](assets/icons/base-line/LanguageSwitching.svg) | ![Left](assets/icons/base-line/Left.svg) | ![LeftCircle](assets/icons/base-line/LeftCircle.svg) |
+| Global | Hand | Home | Inbox | InfoCircle | LanguageSwitching | Left | LeftCircle |
+| ![LeftLine](assets/icons/base-line/LeftLine.svg) | ![Like](assets/icons/base-line/Like.svg) | ![Link](assets/icons/base-line/Link.svg) | ![Loading](assets/icons/base-line/Loading.svg) | ![Location-1](assets/icons/base-line/Location-1.svg) | ![Location](assets/icons/base-line/Location.svg) | ![Lock](assets/icons/base-line/Lock.svg) | ![Love](assets/icons/base-line/Love.svg) |
+| LeftLine | Like | Link | Loading | Location-1 | Location | Lock | Love |
+| ![Mark](assets/icons/base-line/Mark.svg) | ![Marketplace](assets/icons/base-line/Marketplace.svg) | ![Menu](assets/icons/base-line/Menu.svg) | ![MenuDraw](assets/icons/base-line/MenuDraw.svg) | ![MenuPush](assets/icons/base-line/MenuPush.svg) | ![Message](assets/icons/base-line/Message.svg) | ![Microphone-slash](assets/icons/base-line/Microphone-slash.svg) | ![Microphone](assets/icons/base-line/Microphone.svg) |
+| Mark | Marketplace | Menu | MenuDraw | MenuPush | Message | Microphone-slash | Microphone |
+| ![Mobile](assets/icons/base-line/Mobile.svg) | ![More](assets/icons/base-line/More.svg) | ![MoreCircle-1](assets/icons/base-line/MoreCircle-1.svg) | ![MoreCircle](assets/icons/base-line/MoreCircle.svg) | ![Mute](assets/icons/base-line/Mute.svg) | ![Notification](assets/icons/base-line/Notification.svg) | ![Package](assets/icons/base-line/Package.svg) | ![Picture](assets/icons/base-line/Picture.svg) |
+| Mobile | More | MoreCircle-1 | MoreCircle | Mute | Notification | Package | Picture |
+| ![PlayCircle](assets/icons/base-line/PlayCircle.svg) | ![PoliceTerm](assets/icons/base-line/PoliceTerm.svg) | ![Profile](assets/icons/base-line/Profile.svg) | ![QR](assets/icons/base-line/QR.svg) | ![Quantity](assets/icons/base-line/Quantity.svg) | ![QuestionCircle](assets/icons/base-line/QuestionCircle.svg) | ![Record](assets/icons/base-line/Record.svg) | ![Recovery](assets/icons/base-line/Recovery.svg) |
+| PlayCircle | PoliceTerm | Profile | QR | Quantity | QuestionCircle | Record | Recovery |
+| ![Reffer](assets/icons/base-line/Reffer.svg) | ![Refresh-circle](assets/icons/base-line/Refresh-circle.svg) | ![Reminder](assets/icons/base-line/Reminder.svg) | ![Right](assets/icons/base-line/Right.svg) | ![RightCircle](assets/icons/base-line/RightCircle.svg) | ![RightLine](assets/icons/base-line/RightLine.svg) | ![Rotate](assets/icons/base-line/Rotate.svg) | ![Ruler](assets/icons/base-line/Ruler.svg) |
+| Reffer | Refresh-circle | Reminder | Right | RightCircle | RightLine | Rotate | Ruler |
+| ![Save](assets/icons/base-line/Save.svg) | ![Scan](assets/icons/base-line/Scan.svg) | ![Scan_QR](assets/icons/base-line/Scan_QR.svg) | ![Search](assets/icons/base-line/Search.svg) | ![Send](assets/icons/base-line/Send.svg) | ![Setting](assets/icons/base-line/Setting.svg) | ![Share-1](assets/icons/base-line/Share-1.svg) | ![Share](assets/icons/base-line/Share.svg) |
+| Save | Scan | Scan_QR | Search | Send | Setting | Share-1 | Share |
+| ![Shield](assets/icons/base-line/Shield.svg) | ![SignIn](assets/icons/base-line/SignIn.svg) | ![SignOut](assets/icons/base-line/SignOut.svg) | ![Sliders](assets/icons/base-line/Sliders.svg) | ![Sound](assets/icons/base-line/Sound.svg) | ![Star](assets/icons/base-line/Star.svg) | ![Tag](assets/icons/base-line/Tag.svg) | ![Theme](assets/icons/base-line/Theme.svg) |
+| Shield | SignIn | SignOut | Sliders | Sound | Star | Tag | Theme |
+| ![Ticket](assets/icons/base-line/Ticket.svg) | ![Timer](assets/icons/base-line/Timer.svg) | ![Types](assets/icons/base-line/Types.svg) | ![Unlock-1](assets/icons/base-line/Unlock-1.svg) | ![Unlock](assets/icons/base-line/Unlock.svg) | ![Up](assets/icons/base-line/Up.svg) | ![UpCircle](assets/icons/base-line/UpCircle.svg) | ![UpFill](assets/icons/base-line/UpFill.svg) |
+| Ticket | Timer | Types | Unlock-1 | Unlock | Up | UpCircle | UpFill |
+| ![UpLine](assets/icons/base-line/UpLine.svg) | ![User-1](assets/icons/base-line/User-1.svg) | ![User-2](assets/icons/base-line/User-2.svg) | ![User](assets/icons/base-line/User.svg) | ![UserAdd](assets/icons/base-line/UserAdd.svg) | ![UserSwitch](assets/icons/base-line/UserSwitch.svg) | ![Video-slash](assets/icons/base-line/Video-slash.svg) | ![Video](assets/icons/base-line/Video.svg) |
+| UpLine | User-1 | User-2 | User | UserAdd | UserSwitch | Video-slash | Video |
+| ![Zoom_In](assets/icons/base-line/Zoom_In.svg) | ![Zoom_Out](assets/icons/base-line/Zoom_Out.svg) | ![data-1](assets/icons/base-line/data-1.svg) | ![data](assets/icons/base-line/data.svg) | ![list](assets/icons/base-line/list.svg) | ![minimizeCircle-1](assets/icons/base-line/minimizeCircle-1.svg) | ![minimizeCircle](assets/icons/base-line/minimizeCircle.svg) | ![note](assets/icons/base-line/note.svg) |
+| Zoom_In | Zoom_Out | data-1 | data | list | minimizeCircle-1 | minimizeCircle | note |
+| ![receipt](assets/icons/base-line/receipt.svg) | ![wallet-3](assets/icons/base-line/wallet-3.svg) | | | | | | |
+| receipt | wallet-3 | | | | | | |
+
+### 4.2 Icon-Menu
+Colored icons for menu/navigation. 7 icons total:
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![DashboardAllData](assets/icons/menu/DashboardAllData.svg) | ![dashboardMyProfile](assets/icons/menu/dashboardMyProfile.svg) | ![dashboardMyRewards](assets/icons/menu/dashboardMyRewards.svg) | ![dataContribution](assets/icons/menu/dataContribution.svg) | ![dataNetworkTiers](assets/icons/menu/dataNetworkTiers.svg) | ![myConnections](assets/icons/menu/myConnections.svg) |
+| DashboardAllData | dashboardMyProfile | dashboardMyRewards | dataContribution | dataNetworkTiers | myConnections |
+| ![myRewards](assets/icons/menu/myRewards.svg) | | | | | |
+| myRewards | | | | | |
+
+### 4.3 Icon-Tasks
+Task-related icons. 10 icons total:
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![AI_Robot_Chat](assets/icons/tasks/AI_Robot_Chat.svg) | ![Branded_Surveys](assets/icons/tasks/Branded_Surveys.svg) | ![HITL_Validation](assets/icons/tasks/HITL_Validation.svg) | ![KYC](assets/icons/tasks/KYC.svg) | ![MBTI](assets/icons/tasks/MBTI.svg) | ![Profile_Surveys](assets/icons/tasks/Profile_Surveys.svg) |
+| AI_Robot_Chat | Branded_Surveys | HITL_Validation | KYC | MBTI | Profile_Surveys |
+| ![Trivia](assets/icons/tasks/Trivia.svg) | ![Video_Quiz](assets/icons/tasks/Video_Quiz.svg) | ![Wheel](assets/icons/tasks/Wheel.svg) | ![Worded](assets/icons/tasks/Worded.svg) | | |
+| Trivia | Video_Quiz | Wheel | Worded | | |
+
+### 4.4 Icons-Assets
+Colored icons for assets/resources. 3 icons total:
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![Credit](assets/icons/assets-icons/Credit.svg) | ![PTC](assets/icons/assets-icons/PTC.svg) | ![PTC_Credit](assets/icons/assets-icons/PTC_Credit.svg) | | | |
+| Credit | PTC | PTC_Credit | | | |
 
 ## 5. Buttons
 
@@ -170,26 +234,3 @@ The brand has its own cartoon IP character (a green "P"-shaped mascot), includin
 
 Base design: a green "P"-shaped body with simple black-and-white oval eyes, no additional expression or accessories.
 
-### 8.2 Avatar
-
-Multiple avatar variants with different expressions/accessories:
-
-| Default | Winter Cap + Scarf | Blue Cap | Orange Cap | Sun Hat | Fedora |
-|---|---|---|---|---|---|
-| ![Default](assets/avatar/avatar-default.png) | ![Winter Cap + Scarf](assets/avatar/avatar-winter-cap-scarf.png) | ![Blue Cap](assets/avatar/avatar-cap-blue.png) | ![Orange Cap](assets/avatar/avatar-cap-orange-heart.png) | ![Sun Hat](assets/avatar/avatar-hat-safari.png) | ![Fedora](assets/avatar/avatar-hat-fedora.png) |
-
-| Teal Striped Scarf | Lashes (Default) | Wide-Brim Hat + Pink Scarf | Bow + Scarf | Lashes + Red Scarf | Angry |
-|---|---|---|---|---|---|
-| ![Teal Striped Scarf](assets/avatar/avatar-scarf-teal.png) | ![Lashes](assets/avatar/avatar-lashes.png) | ![Wide-Brim Hat + Pink Scarf](assets/avatar/avatar-sunhat-scarf-pink.png) | ![Bow + Scarf](assets/avatar/avatar-bow-scarf.png) | ![Lashes + Red Scarf](assets/avatar/avatar-lashes-scarf-red.png) | ![Angry](assets/avatar/avatar-angry.png) |
-
-| Dizzy/Blushing | Kawaii | Suspicious | Heart Eyes | Sleepy | Side Glance/Wink |
-|---|---|---|---|---|---|
-| ![Dizzy](assets/avatar/avatar-dizzy.png) | ![Kawaii](assets/avatar/avatar-kawaii.png) | ![Suspicious](assets/avatar/avatar-suspicious.png) | ![Heart Eyes](assets/avatar/avatar-heart-eyes.png) | ![Sleepy](assets/avatar/avatar-sleepy.png) | ![Side Glance](assets/avatar/avatar-wink-side.png) |
-
-### 8.3 Emojis Gif
-
-Animated emoji/sticker series:
-
-| Coming Right Up! | Good Morning! | Heart | Like | Nice |
-|---|---|---|---|---|
-| ![Coming Right Up](assets/Coming_right_up_.png) | ![Good Morning](assets/Good_Morning_.png) | ![Heart](assets/Heart.png) | ![Like](assets/Like.png) | ![Nice](assets/nice.png) |

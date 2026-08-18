@@ -6,17 +6,17 @@
 - 图形符号：一条斜杠"/"与字母"P"组合而成的图形标记（可读作 "/P"），置于圆形色块背景中
 - 文字部分（Wordmark）由两部分组成：顶部小号"THE"上标文字 + 主体"PromptProtocol"文字
 - 资产文件：
-  - **完整标志（Logo）**：`img-brand-logo.svg` —— 图标 + 文字组合，含 4 种配色变体
-  - **图形标记（Logomark）**：`img-brand-logomark.svg` —— 仅图标，不含文字，含相同的 4 种配色变体
+  - **完整标志（Logo）**：`assets/img-brand-logo/` —— 图标 + 文字组合，含 4 种配色变体（main / black / white / green）
+  - **图形标记（Logomark）**：`assets/img-brand-logomark/` —— 仅图标，不含文字，含相同的 4 种配色变体（main / black / white / green）
 
 ### 1.1 配色变体
 
-| 变体 | 圆形背景色 | 图标"P"颜色 | "PromptProtocol"颜色 | "THE"颜色 |
-|---|---|---|---|---|
-| 浅色背景版 | 渐变 White → #E3E3E3 | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
-| 黑底版 | Black #000000 | Brand/100 #47EA81 | Black #000000 | Black #000000 |
-| 纯图标版（无背景） | White #FFFFFF（在浅色画布上视觉无背景） | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
-| 纯绿色背景版 | Brand/100 #47EA81 | White #FFFFFF | Black #000000 | Black #000000 |
+| 变体 | 完整 Logo 预览 | Logomark 预览 | 圆形背景色 | 图标"P"颜色 | "PromptProtocol"颜色 | "THE"颜色 |
+|---|---|---|---|---|---|---|
+| 浅色背景版 | ![Logo-浅色](assets/img-brand-logo/main.svg) | ![Logomark-浅色](assets/img-brand-logomark/main.svg) | 渐变 White → #E3E3E3 | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
+| 黑底版 | ![Logo-黑底](assets/img-brand-logo/black.svg) | ![Logomark-黑底](assets/img-brand-logomark/black.svg) | Black #000000 | Brand/100 #47EA81 | Black #000000 | Black #000000 |
+| 纯图标版（无背景） | ![Logo-白色](assets/img-brand-logo/white.svg) | ![Logomark-白色](assets/img-brand-logomark/white.svg) | White #FFFFFF（在浅色画布上视觉无背景） | Brand/100 #47EA81 | Brand/100 #47EA81 | Black #000000 |
+| 纯绿色背景版 | ![Logo-绿色](assets/img-brand-logo/green.svg) | ![Logomark-绿色](assets/img-brand-logomark/green.svg) | Brand/100 #47EA81 | White #FFFFFF | Black #000000 | Black #000000 |
 
 > 注：Logomark（纯图标）文件的 4 种变体背景/图标配色与上表完全一致，只是不含文字部分。
 
@@ -119,10 +119,74 @@
 | Button 10 | 10px | 13px | Regular |
 
 ## 4. 图标 (Icons)
-- **Base icons-Line**：线性风格基础图标库（导航、操作、箭头等，数量众多）
-- **Menu icons**：用于菜单/导航的彩色图标
-- **Tasks icons**：任务相关图标
-- **Assets icons**：资产/资源相关的彩色图标
+
+### 4.1 Base icons-Line（线性基础图标库）
+线性风格基础图标库，用于导航、操作、箭头等通用场景，共 130 个：
+
+| | | | | | | | |
+|---|---|---|---|---|---|---|---|
+| ![AddCircle-1](assets/icons/base-line/AddCircle-1.svg) | ![AddCircle](assets/icons/base-line/AddCircle.svg) | ![Add_Tags](assets/icons/base-line/Add_Tags.svg) | ![Back](assets/icons/base-line/Back.svg) | ![Brand](assets/icons/base-line/Brand.svg) | ![Calendar](assets/icons/base-line/Calendar.svg) | ![Camera-1](assets/icons/base-line/Camera-1.svg) | ![Camera](assets/icons/base-line/Camera.svg) |
+| AddCircle-1 | AddCircle | Add_Tags | Back | Brand | Calendar | Camera-1 | Camera |
+| ![Card](assets/icons/base-line/Card.svg) | ![Categories](assets/icons/base-line/Categories.svg) | ![Chart-pie](assets/icons/base-line/Chart-pie.svg) | ![Chart](assets/icons/base-line/Chart.svg) | ![Check](assets/icons/base-line/Check.svg) | ![CheckCircle](assets/icons/base-line/CheckCircle.svg) | ![Clock](assets/icons/base-line/Clock.svg) | ![CloseCircle-1](assets/icons/base-line/CloseCircle-1.svg) |
+| Card | Categories | Chart-pie | Chart | Check | CheckCircle | Clock | CloseCircle-1 |
+| ![CloseCircle](assets/icons/base-line/CloseCircle.svg) | ![Contact](assets/icons/base-line/Contact.svg) | ![ContactWithUS](assets/icons/base-line/ContactWithUS.svg) | ![Copy](assets/icons/base-line/Copy.svg) | ![Delete](assets/icons/base-line/Delete.svg) | ![Discount](assets/icons/base-line/Discount.svg) | ![Dislike](assets/icons/base-line/Dislike.svg) | ![Down](assets/icons/base-line/Down.svg) |
+| CloseCircle | Contact | ContactWithUS | Copy | Delete | Discount | Dislike | Down |
+| ![DownFill](assets/icons/base-line/DownFill.svg) | ![DownLine](assets/icons/base-line/DownLine.svg) | ![DownkCircle](assets/icons/base-line/DownkCircle.svg) | ![Downlosd](assets/icons/base-line/Downlosd.svg) | ![Edit](assets/icons/base-line/Edit.svg) | ![Edit_Complete](assets/icons/base-line/Edit_Complete.svg) | ![Email](assets/icons/base-line/Email.svg) | ![ErrorCircle](assets/icons/base-line/ErrorCircle.svg) |
+| DownFill | DownLine | DownkCircle | Downlosd | Edit | Edit_Complete | Email | ErrorCircle |
+| ![Expand](assets/icons/base-line/Expand.svg) | ![Explore](assets/icons/base-line/Explore.svg) | ![Eye-1](assets/icons/base-line/Eye-1.svg) | ![Eye](assets/icons/base-line/Eye.svg) | ![Feedback](assets/icons/base-line/Feedback.svg) | ![Filter](assets/icons/base-line/Filter.svg) | ![FingerPrint](assets/icons/base-line/FingerPrint.svg) | ![GPS](assets/icons/base-line/GPS.svg) |
+| Expand | Explore | Eye-1 | Eye | Feedback | Filter | FingerPrint | GPS |
+| ![Global](assets/icons/base-line/Global.svg) | ![Hand](assets/icons/base-line/Hand.svg) | ![Home](assets/icons/base-line/Home.svg) | ![Inbox](assets/icons/base-line/Inbox.svg) | ![InfoCircle](assets/icons/base-line/InfoCircle.svg) | ![LanguageSwitching](assets/icons/base-line/LanguageSwitching.svg) | ![Left](assets/icons/base-line/Left.svg) | ![LeftCircle](assets/icons/base-line/LeftCircle.svg) |
+| Global | Hand | Home | Inbox | InfoCircle | LanguageSwitching | Left | LeftCircle |
+| ![LeftLine](assets/icons/base-line/LeftLine.svg) | ![Like](assets/icons/base-line/Like.svg) | ![Link](assets/icons/base-line/Link.svg) | ![Loading](assets/icons/base-line/Loading.svg) | ![Location-1](assets/icons/base-line/Location-1.svg) | ![Location](assets/icons/base-line/Location.svg) | ![Lock](assets/icons/base-line/Lock.svg) | ![Love](assets/icons/base-line/Love.svg) |
+| LeftLine | Like | Link | Loading | Location-1 | Location | Lock | Love |
+| ![Mark](assets/icons/base-line/Mark.svg) | ![Marketplace](assets/icons/base-line/Marketplace.svg) | ![Menu](assets/icons/base-line/Menu.svg) | ![MenuDraw](assets/icons/base-line/MenuDraw.svg) | ![MenuPush](assets/icons/base-line/MenuPush.svg) | ![Message](assets/icons/base-line/Message.svg) | ![Microphone-slash](assets/icons/base-line/Microphone-slash.svg) | ![Microphone](assets/icons/base-line/Microphone.svg) |
+| Mark | Marketplace | Menu | MenuDraw | MenuPush | Message | Microphone-slash | Microphone |
+| ![Mobile](assets/icons/base-line/Mobile.svg) | ![More](assets/icons/base-line/More.svg) | ![MoreCircle-1](assets/icons/base-line/MoreCircle-1.svg) | ![MoreCircle](assets/icons/base-line/MoreCircle.svg) | ![Mute](assets/icons/base-line/Mute.svg) | ![Notification](assets/icons/base-line/Notification.svg) | ![Package](assets/icons/base-line/Package.svg) | ![Picture](assets/icons/base-line/Picture.svg) |
+| Mobile | More | MoreCircle-1 | MoreCircle | Mute | Notification | Package | Picture |
+| ![PlayCircle](assets/icons/base-line/PlayCircle.svg) | ![PoliceTerm](assets/icons/base-line/PoliceTerm.svg) | ![Profile](assets/icons/base-line/Profile.svg) | ![QR](assets/icons/base-line/QR.svg) | ![Quantity](assets/icons/base-line/Quantity.svg) | ![QuestionCircle](assets/icons/base-line/QuestionCircle.svg) | ![Record](assets/icons/base-line/Record.svg) | ![Recovery](assets/icons/base-line/Recovery.svg) |
+| PlayCircle | PoliceTerm | Profile | QR | Quantity | QuestionCircle | Record | Recovery |
+| ![Reffer](assets/icons/base-line/Reffer.svg) | ![Refresh-circle](assets/icons/base-line/Refresh-circle.svg) | ![Reminder](assets/icons/base-line/Reminder.svg) | ![Right](assets/icons/base-line/Right.svg) | ![RightCircle](assets/icons/base-line/RightCircle.svg) | ![RightLine](assets/icons/base-line/RightLine.svg) | ![Rotate](assets/icons/base-line/Rotate.svg) | ![Ruler](assets/icons/base-line/Ruler.svg) |
+| Reffer | Refresh-circle | Reminder | Right | RightCircle | RightLine | Rotate | Ruler |
+| ![Save](assets/icons/base-line/Save.svg) | ![Scan](assets/icons/base-line/Scan.svg) | ![Scan_QR](assets/icons/base-line/Scan_QR.svg) | ![Search](assets/icons/base-line/Search.svg) | ![Send](assets/icons/base-line/Send.svg) | ![Setting](assets/icons/base-line/Setting.svg) | ![Share-1](assets/icons/base-line/Share-1.svg) | ![Share](assets/icons/base-line/Share.svg) |
+| Save | Scan | Scan_QR | Search | Send | Setting | Share-1 | Share |
+| ![Shield](assets/icons/base-line/Shield.svg) | ![SignIn](assets/icons/base-line/SignIn.svg) | ![SignOut](assets/icons/base-line/SignOut.svg) | ![Sliders](assets/icons/base-line/Sliders.svg) | ![Sound](assets/icons/base-line/Sound.svg) | ![Star](assets/icons/base-line/Star.svg) | ![Tag](assets/icons/base-line/Tag.svg) | ![Theme](assets/icons/base-line/Theme.svg) |
+| Shield | SignIn | SignOut | Sliders | Sound | Star | Tag | Theme |
+| ![Ticket](assets/icons/base-line/Ticket.svg) | ![Timer](assets/icons/base-line/Timer.svg) | ![Types](assets/icons/base-line/Types.svg) | ![Unlock-1](assets/icons/base-line/Unlock-1.svg) | ![Unlock](assets/icons/base-line/Unlock.svg) | ![Up](assets/icons/base-line/Up.svg) | ![UpCircle](assets/icons/base-line/UpCircle.svg) | ![UpFill](assets/icons/base-line/UpFill.svg) |
+| Ticket | Timer | Types | Unlock-1 | Unlock | Up | UpCircle | UpFill |
+| ![UpLine](assets/icons/base-line/UpLine.svg) | ![User-1](assets/icons/base-line/User-1.svg) | ![User-2](assets/icons/base-line/User-2.svg) | ![User](assets/icons/base-line/User.svg) | ![UserAdd](assets/icons/base-line/UserAdd.svg) | ![UserSwitch](assets/icons/base-line/UserSwitch.svg) | ![Video-slash](assets/icons/base-line/Video-slash.svg) | ![Video](assets/icons/base-line/Video.svg) |
+| UpLine | User-1 | User-2 | User | UserAdd | UserSwitch | Video-slash | Video |
+| ![Zoom_In](assets/icons/base-line/Zoom_In.svg) | ![Zoom_Out](assets/icons/base-line/Zoom_Out.svg) | ![data-1](assets/icons/base-line/data-1.svg) | ![data](assets/icons/base-line/data.svg) | ![list](assets/icons/base-line/list.svg) | ![minimizeCircle-1](assets/icons/base-line/minimizeCircle-1.svg) | ![minimizeCircle](assets/icons/base-line/minimizeCircle.svg) | ![note](assets/icons/base-line/note.svg) |
+| Zoom_In | Zoom_Out | data-1 | data | list | minimizeCircle-1 | minimizeCircle | note |
+| ![receipt](assets/icons/base-line/receipt.svg) | ![wallet-3](assets/icons/base-line/wallet-3.svg) | | | | | | |
+| receipt | wallet-3 | | | | | | |
+
+### 4.2 Icon-Menu（菜单图标）
+用于菜单/导航的彩色图标，共 7 个：
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![DashboardAllData](assets/icons/menu/DashboardAllData.svg) | ![dashboardMyProfile](assets/icons/menu/dashboardMyProfile.svg) | ![dashboardMyRewards](assets/icons/menu/dashboardMyRewards.svg) | ![dataContribution](assets/icons/menu/dataContribution.svg) | ![dataNetworkTiers](assets/icons/menu/dataNetworkTiers.svg) | ![myConnections](assets/icons/menu/myConnections.svg) |
+| DashboardAllData | dashboardMyProfile | dashboardMyRewards | dataContribution | dataNetworkTiers | myConnections |
+| ![myRewards](assets/icons/menu/myRewards.svg) | | | | | |
+| myRewards | | | | | |
+
+### 4.3 Icon-Tasks（任务图标）
+任务相关图标，共 10 个：
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![AI_Robot_Chat](assets/icons/tasks/AI_Robot_Chat.svg) | ![Branded_Surveys](assets/icons/tasks/Branded_Surveys.svg) | ![HITL_Validation](assets/icons/tasks/HITL_Validation.svg) | ![KYC](assets/icons/tasks/KYC.svg) | ![MBTI](assets/icons/tasks/MBTI.svg) | ![Profile_Surveys](assets/icons/tasks/Profile_Surveys.svg) |
+| AI_Robot_Chat | Branded_Surveys | HITL_Validation | KYC | MBTI | Profile_Surveys |
+| ![Trivia](assets/icons/tasks/Trivia.svg) | ![Video_Quiz](assets/icons/tasks/Video_Quiz.svg) | ![Wheel](assets/icons/tasks/Wheel.svg) | ![Worded](assets/icons/tasks/Worded.svg) | | |
+| Trivia | Video_Quiz | Wheel | Worded | | |
+
+### 4.4 Icons-Assets（资产图标）
+资产/资源相关的彩色图标，共 3 个：
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![Credit](assets/icons/assets-icons/Credit.svg) | ![PTC](assets/icons/assets-icons/PTC.svg) | ![PTC_Credit](assets/icons/assets-icons/PTC_Credit.svg) | | | |
+| Credit | PTC | PTC_Credit | | | |
 
 ## 5. 按钮 (Buttons)
 
@@ -170,26 +234,3 @@
 
 基础造型：绿色 "P" 字形身体，搭配黑白椭圆形眼睛，无额外表情或配饰。
 
-### 8.2 Avatar（头像变体）
-
-多种表情/装扮头像变体：
-
-| 默认 | 冬季毛帽+围巾 | 蓝色棒球帽 | 橙色棒球帽 | 遮阳帽 | 牛仔帽 |
-|---|---|---|---|---|---|
-| ![默认](assets/avatar/avatar-default.png) | ![冬季毛帽+围巾](assets/avatar/avatar-winter-cap-scarf.png) | ![蓝色棒球帽](assets/avatar/avatar-cap-blue.png) | ![橙色棒球帽](assets/avatar/avatar-cap-orange-heart.png) | ![遮阳帽](assets/avatar/avatar-hat-safari.png) | ![牛仔帽](assets/avatar/avatar-hat-fedora.png) |
-
-| 蓝绿条纹围巾 | 睫毛款(默认) | 阔边帽+粉色围巾 | 蝴蝶结+围巾 | 睫毛款+红围巾 | 生气 |
-|---|---|---|---|---|---|
-| ![蓝绿条纹围巾](assets/avatar/avatar-scarf-teal.png) | ![睫毛款](assets/avatar/avatar-lashes.png) | ![阔边帽+粉色围巾](assets/avatar/avatar-sunhat-scarf-pink.png) | ![蝴蝶结+围巾](assets/avatar/avatar-bow-scarf.png) | ![睫毛款+红围巾](assets/avatar/avatar-lashes-scarf-red.png) | ![生气](assets/avatar/avatar-angry.png) |
-
-| 害羞/眩晕 | 可爱(眯眼笑) | 怀疑 | 爱心眼 | 困倦 | 侧看/眨眼 |
-|---|---|---|---|---|---|
-| ![害羞眩晕](assets/avatar/avatar-dizzy.png) | ![可爱](assets/avatar/avatar-kawaii.png) | ![怀疑](assets/avatar/avatar-suspicious.png) | ![爱心眼](assets/avatar/avatar-heart-eyes.png) | ![困倦](assets/avatar/avatar-sleepy.png) | ![侧看眨眼](assets/avatar/avatar-wink-side.png) |
-
-### 8.3 Emojis Gif（动态表情包）
-
-动态表情包系列：
-
-| Coming Right Up! | Good Morning! | Heart | Like | Nice |
-|---|---|---|---|---|
-| ![Coming Right Up](assets/Coming_right_up_.png) | ![Good Morning](assets/Good_Morning_.png) | ![Heart](assets/Heart.png) | ![Like](assets/Like.png) | ![Nice](assets/nice.png) |
